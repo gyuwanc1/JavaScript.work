@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* 1day.css*/
+
+/* #box {width: 100px; height: 100px; background-color: lightcoral;cursor: pointer;} */ 
+
+#book {
+  cursor:pointer;
+  box-shadow:5px 5px 2px #888;
+}
