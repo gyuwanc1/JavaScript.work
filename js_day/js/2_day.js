@@ -78,7 +78,7 @@ var insert2 = 'more2';
 
 var d2 ='d""a'
 
-var d3 = 'd'+ "'\insert\'"+"\insert2\"+'a'\;
+var d3 = 
 console.log(d3);
 
 
