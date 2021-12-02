@@ -70,5 +70,15 @@ var yourBox='     ';
 console.log(myBox == yourBox); //false인 이유는 myBox와 yourBox 다른이유는? 문자와 빈공간의 문자인 타입은 같지만 의미는 다르다.
 console.log(typeof myBox, typeof yourBox); 
 
+console.clear();
+
+
+var insert = 'more';
+var insert2 = 'more2';
+
+var d2 ='d""a'
+
+var d3 = 'd'+ "'\insert\'"+"\insert2\"+'a'\;
+console.log(d3);
 
 
