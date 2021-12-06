@@ -149,3 +149,7 @@ console.log ('2번 x ='+ x + ' z='+ z) //x=3 z=3
 
 y += z
 console.log('3번 y = ' + y + ' z=' +z) //y=4 z=3
+
+
+
+
