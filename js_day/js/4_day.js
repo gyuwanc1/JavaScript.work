@@ -41,3 +41,39 @@ if (runningTime <= 10){
 }else {
   console.log('연습이 필요합니다')
 };
+
+//for 문
+// for(초기값;조건식;증감식){ 실행문}
+
+var x
+for(x=1; x<=5; x+=1){
+  console.log(x);
+};
+
+//예제
+
+// var week = prompt('요일을 입력하세요(월~금');
+
+// if (week==='월'||week==='수'||week==='금'){
+//   console.log('정상수업')
+// }else if (week==='화'||week==='목'){
+//   console.log('수업없음')
+// }else{console.log('잘못입력');}
+
+// console.clear();
+//=============================
+//for문
+
+
+var ID = 'car' //저장된 아이디
+for(i=0; i<3 ; i+=1){
+  var idInput = prompt('아이디를 입력하세요')
+  if (idInput === ID){
+    console.log(idInput + '님 반갑습니다.')
+     break;
+  }else {
+    console.log ('ID가 잘못 입력 되었습니다.')
+  }
+}
+
+
