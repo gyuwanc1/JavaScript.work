@@ -17,3 +17,27 @@ function upBox(obj){
 function outBox(obj){
   obj.style.backgroundColor="#171717";
 }//마우스가 해당영역을 나가면 색변환
+
+//2 마우스 이벤트
+
+function clickBox(obj){
+  obj.style.backgroundColor='lightgreen';
+}//마우스로 한번클릭
+
+function dblclickBox(obj){
+  obj.style.backgroundColor='lightblue';
+}//마우스로 두번클릭
+
+//3. 키보드이벤트-1
+
+function downinput(){
+  console.log('keydown')  
+}
+
+function upinput() {
+  console.log('keyup')
+}
+
+function pressinput() {
+  console.log('keypress')
+}

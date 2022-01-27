@@ -3,3 +3,12 @@
 #box{
   width: 100px; height: 100px; background-color:#fad; cursor: pointer;
 }
+
+#box02 {
+  width: 100px; height: 100px; background-color: lightcoral; cursor: pointer;
+}
+
+input[name="search"]{
+  padding: 5px;
+  border: 2px solid #aaa;
+}
