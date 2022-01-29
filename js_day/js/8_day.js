@@ -41,3 +41,23 @@ function upinput() {
 function pressinput() {
   console.log('keypress')
 }
+
+//3. 키보드이벤트-2
+
+function downinput(event) {
+  console.log ('[keydown]' + event.keyCode);
+}
+
+function pressinput(event) {
+  console.log ('[keypress]' + event.which);
+}
+
+//연습문제
+
+
+function mySearch(event){
+  if(event.which === 13 ){
+    console.log(event.target);
+    alert(event.target.value);
+  }
+}

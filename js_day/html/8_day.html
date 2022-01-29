@@ -16,7 +16,16 @@
 
   <input type="text" name="search" onkeydown="downinput()"
   onkeyup="upinput()" onkeypress="pressinput()" placeholder="검색어를 입력하세요">
+  <br />
+
+  <input type="text" class="okinput" onkeydown="downinput(event)" placeholder="keydown이벤트">
+  <hr>
+  <input type="text" class="okinput" onkeypress="pressinput(event)" placeholder="keypress 이벤트">
+
+  <br />
   
+  <input type="text" name="search" onkeydown="mySearch(event)" placeholder="검색어 입력 후, 엔터를 클릭하세요">
+
   <script src="../js/8_day.js"></script>
 </body>
 </html>
