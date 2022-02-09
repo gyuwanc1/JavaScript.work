@@ -4,19 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/9_day.css"> 
   <title>Document</title>
 </head>
 <body>
 
   <button type="button" onclick="search()">아이디로 찾기</button>
   <ul>
-    <li>첫번째 리스트입니다.</li>
+    <li class="selected">첫번째 리스트입니다.</li>
     <li>두번째 리스트입니다.</li>
-    <li>세번째 리스트입니다.</li>
+    <li class="selected">세번째 리스트입니다.</li>
     <li>네번째 리스트입니다.</li>
-    <li>다섯번째 리스트입니다.</li>
+    <li class="selected">다섯번째 리스트입니다.</li>
   </ul>
   
+  <button type="button" onclick="change()">변경</button>
+  <ul>
+    <li class="coral">첫번째 리스트 입니다.</li>
+    <li>두번째 리스트 입니다.</li>
+    <li class="green">세번째 리스트 입니다.</li>
+    <li>네번째 리스트 입니다.</li>
+    <li id="third" class="blue">다섯번째 리스트 입니다.</li>
+  </ul>
 
   <script src="../js/9_day.js"></script>
 </body>
