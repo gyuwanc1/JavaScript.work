@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+}
+.container > div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: lightcoral;
+  border-radius: 100%;
+}
+
+
+.container_02 {
+  display: flex;
+}
+
+.container_02 > div {
+  width: 100px;
+  height: 100px;
+  margin:10px;
+  background-color: #fad;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.container_02 > div:nth-of-type(2){
+  background-color: #fda;
+}
