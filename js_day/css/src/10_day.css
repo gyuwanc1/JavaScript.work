@@ -8,3 +8,20 @@
   background-color: lightcoral;
   border-radius: 100%;
 }
+
+.container02 {
+  display: flex;
+}
+
+#red, #blue{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: lightcoral;
+  cursor: pointer;
+}
+
+#blue{
+  background-color: lightskyblue;
+}

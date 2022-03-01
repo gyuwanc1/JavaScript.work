@@ -32,6 +32,20 @@ document.querySelector('.container > div:nth-of-type(2)').onmouseout=function(){
     console.log('모니터의 크기 - device size')
     console.log(window.screen.width + 'X' + window.screen.height);
   }
+}
 
+{
+  const redBox = document.querySelector('#red')
+  redBox.addEventListener('click',()=>{
+    redBox.style.boxShadow = '2px 2px 2px #888';
+  })
+  
 
+  const blueBox = document.querySelector('#blue')
+  blueBox.addEventListener('mouseover',function(){
+    this.style.boxShadow='2px 2px 2px #888';
+  })
+  blueBox.addEventListener('mouseout',function(){
+    this.style.boxShadow = 'none'
+  })
 }
