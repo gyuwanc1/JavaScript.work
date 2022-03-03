@@ -49,3 +49,27 @@ document.querySelector('.container > div:nth-of-type(2)').onmouseout=function(){
     this.style.boxShadow = 'none'
   })
 }
+
+{
+  const lists = document.querySelectorAll('#mylist > li');
+  
+  for(let i=0; i<lists.length;i++){
+    lists[i].addEventListener('mouseover', function(){
+      this.style.backgroundColor='#eee';
+    })
+
+    lists[i].addEventListener('mouseout',function(){
+      this.style.backgroundColor = 'transparent';
+    })
+    
+    lists[i].onclick=clickList;
+  }
+
+  function clickList(){
+    if(this.className === 'clicked'){
+      this.className ='';
+    }else{
+      this.className = 'clicked';
+    }
+  }
+}

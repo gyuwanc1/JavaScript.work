@@ -25,3 +25,19 @@
 #blue{
   background-color: lightskyblue;
 }
+
+#mylist{
+  list-style-type: none;
+  padding: 0;
+}
+#mylist > li {
+  line-height: 2rem;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  cursor: pointer;  
+  text-indent: 32px;
+}
+
+.clicked{
+  background-color: lightgreen !important;
+}
